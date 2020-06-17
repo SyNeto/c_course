@@ -6,7 +6,7 @@
 
 int main(int argc, char** argv)
 {
-    printf("Storage size for float : %d \n", sizeof(float));
+    printf("Storage size for float : %ld \n", sizeof(float));
     printf("FLT_MAX     :   %g\n", (float) FLT_MAX);
     printf("FLT_MIN     :   %g\n", (float) FLT_MIN);
     printf("-FLT_MAX    :   %g\n", (float) -FLT_MAX);
